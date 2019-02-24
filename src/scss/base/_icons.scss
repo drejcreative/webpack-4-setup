@@ -1,0 +1,66 @@
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-facebook-square: "\f082";
+$icon-linkedin-square: "\f08c";
+$icon-github-square: "\f092";
+$icon-globe: "\f0ac";
+$icon-youtube-square: "\f166";
+$icon-envelope-open: "\f2b6";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?vmst2t');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?vmst2t#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?vmst2t') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?vmst2t') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?vmst2t##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook-square {
+  &:before {
+    content: $icon-facebook-square; 
+  }
+}
+.icon-linkedin-square {
+  &:before {
+    content: $icon-linkedin-square; 
+  }
+}
+.icon-github-square {
+  &:before {
+    content: $icon-github-square; 
+  }
+}
+.icon-globe {
+  &:before {
+    content: $icon-globe; 
+  }
+}
+.icon-youtube-square {
+  &:before {
+    content: $icon-youtube-square; 
+  }
+}
+.icon-envelope-open {
+  &:before {
+    content: $icon-envelope-open; 
+  }
+}

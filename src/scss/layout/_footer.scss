@@ -1,0 +1,25 @@
+.footer {
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 40px);
+  color: var(--light);
+  font-weight: 300;
+  z-index: 5;
+  a {
+    text-decoration: none;
+    color: var(--light);
+    &:hover {
+      color: var(--contrast);
+    }
+  }
+
+  &__social {
+    font-size: 30px;
+    a {
+      margin-left: 10px;
+    }
+  }
+}
