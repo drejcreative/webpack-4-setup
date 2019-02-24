@@ -40,7 +40,7 @@ table {
 @font-face {
   font-family: "icomoon";
   src: url(d8c49d318b01b198c379b5d46c65d046.eot);
-  src: url(d8c49d318b01b198c379b5d46c65d046.eot#iefix) format("embedded-opentype"), url(74d4265e3bd8dfa0ea7ebf093e61cc89.ttf) format("truetype"), url(389c9bef8729bc49bddc62a616ab78a6.woff) format("woff"), url(4869568187bbe10f83969a4bb87b575f.svg#icomoon) format("svg");
+  src: url(d8c49d318b01b198c379b5d46c65d046.eot#iefix) format("embedded-opentype"), url(74d4265e3bd8dfa0ea7ebf093e61cc89.ttf) format("truetype"), url(389c9bef8729bc49bddc62a616ab78a6.woff) format("woff"), url(087c46dc6ef17c42725db1bd7095e266.svg#icomoon) format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -176,4 +176,4 @@ body {
   --light:         #ffffff; }
 
 
-/*# sourceMappingURL=app.eb4c91c4cd73bfb5d7fb.css.map*/
+/*# sourceMappingURL=app.7f4e8783f80411c91581.css.map*/
