@@ -1,5 +1,5 @@
 # Movie Place
-[Visit App](https://github.com/drejcreative/webpack-4-setup)
+[Visit App](https://drejcreative.github.io/webpack-4-setup/)
 ![Project Screenshot](app.png)
 
 This is Webpack 4 Development setup which has a good starting setup for website and web apps build. You can use the latest and greatest fro JavaScript world as it has Babel Integrated.
