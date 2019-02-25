@@ -8,6 +8,14 @@
   color: var(--light);
   font-weight: 300;
   z-index: 5;
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+    align-items: center;
+    &__social {
+      margin-top: 10px;
+    }
+  }
   a {
     text-decoration: none;
     color: var(--light);

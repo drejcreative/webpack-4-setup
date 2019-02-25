@@ -8,7 +8,28 @@ Particles.init({
 	selector: '.background',
   color: ['#ffffff', '#3074BB', '#1B2236'],
   maxParticles: 150,
-  connectParticles: true
+  connectParticles: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        maxParticles: 100,
+        color: ['#ffffff', '#3074BB', '#1B2236'],
+        connectParticles: true
+      }
+    }, {
+      breakpoint: 425,
+      options: {
+        maxParticles: 50,
+        connectParticles: true
+      }
+    }, {
+      breakpoint: 320,
+      options: {
+        maxParticles: 0
+      }
+    }
+  ]
 });
 
 const options = {

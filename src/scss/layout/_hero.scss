@@ -16,6 +16,10 @@
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
 
+    @media only screen and (max-width: 800px) {
+      font-size: 30px;
+    }
+
     .highlight {
       padding: 15px 20px;
       text-shadow: none;
@@ -23,7 +27,10 @@
       background: var(--contrast);
       cursor: pointer;
       width: 100px;
-
+      @media only screen and (max-width: 800px) {
+        padding: 5px 10px;
+        width: 60px;
+      }
     }
   }
   &__type-wrap {
@@ -32,5 +39,8 @@
     color: var(--light);
     font-weight: 100;
     font-size: 30px;
+    @media only screen and (max-width: 800px) {
+      font-size: 20px;
+    }
   }
 }
