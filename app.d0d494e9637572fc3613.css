@@ -126,6 +126,9 @@ body {
     padding-bottom: 20px;
     margin-bottom: 20px;
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1); }
+    @media only screen and (max-width: 800px) {
+      .hero__header {
+        font-size: 30px; } }
     .hero__header .highlight {
       padding: 15px 20px;
       text-shadow: none;
@@ -133,6 +136,10 @@ body {
       background: var(--contrast);
       cursor: pointer;
       width: 100px; }
+      @media only screen and (max-width: 800px) {
+        .hero__header .highlight {
+          padding: 5px 10px;
+          width: 60px; } }
   .hero__type-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -143,6 +150,9 @@ body {
     color: var(--light);
     font-weight: 100;
     font-size: 30px; }
+    @media only screen and (max-width: 800px) {
+      .hero__type-wrap {
+        font-size: 20px; } }
 
 .footer {
   position: absolute;
@@ -158,6 +168,17 @@ body {
   color: var(--light);
   font-weight: 300;
   z-index: 5; }
+  @media only screen and (max-width: 800px) {
+    .footer {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .footer__social {
+        margin-top: 10px; } }
   .footer a {
     text-decoration: none;
     color: var(--light); }
@@ -176,4 +197,4 @@ body {
   --light:         #ffffff; }
 
 
-/*# sourceMappingURL=app.7f4e8783f80411c91581.css.map*/
+/*# sourceMappingURL=app.d0d494e9637572fc3613.css.map*/
