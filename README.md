@@ -12,8 +12,8 @@ This is Webpack 4 Development setup which has a good starting setup for website 
 
 
 ## Development server
-Run `npm dev` for a dev server. It will automatically open your default browser and show the app. It has live reload integrated.
+Run `npm run dev` for a dev server. It will automatically open your default browser and show the app. It has live reload integrated.
 
 
 ## Build
-Run `npm prod` to build the project. The build artifacts will be stored in the `dist/` directory. Files are minified and ready for production.
+Run `npm run prod` to build the project. The build artifacts will be stored in the `dist/` directory. Files are minified and ready for production.
